@@ -19,7 +19,8 @@
 	"devDependencies": {
 		"mocha": "*",
 		"sinon": "*",
-		"should": "*"
+		"should": "*",
+		"pre-git": "^0.1.1"
 	},
 	"keywords": [
 		"cache",
@@ -29,6 +30,11 @@
 		"templates",
 		"express",
 		"connect"
+	],
+	"pre-push": [
+		"rm -rf tmp",
+		"rm -rf .sass-cache",
+		"node ../testers/pre-push.js"
 	],
 	"author": "AlejoNext"
 }
