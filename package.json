@@ -1,7 +1,7 @@
 {
 	"name": "cachewatch",
-	"version": "0.0.7",
-	"description": "Wrapper for the CacheWacth",
+	"version": "0.0.8",
+	"description": "Wrapper for the CacheWatch",
 	"main": "lib/index.js",
 	"scripts": {
 		"test": "DEBUG= ./node_modules/.bin/mocha -t 5000"
