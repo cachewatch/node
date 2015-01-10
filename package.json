@@ -1,6 +1,6 @@
 {
 	"name": "cachewacth",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Wrapper for the CacheWacth",
 	"main": "lib/index.js",
 	"scripts": {
@@ -14,7 +14,7 @@
 		"debug": "^0.7.2",
 		"lodash": "^1.1.1",
 		"request": "^2.16.6",
-		"underscore" : "1.7.0"
+		"underscore": "1.7.0"
 	},
 	"devDependencies": {
 		"mocha": "*",
