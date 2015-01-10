@@ -1,6 +1,6 @@
 {
 	"name": "cachewacth",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"description": "Wrapper for the CacheWacth",
 	"main": "lib/index.js",
 	"scripts": {
