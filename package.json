@@ -27,9 +27,8 @@
 		"cachewatch",
 		"seo",
 		"templates",
-		"angular",
-		"backbone",
-		"emberjs"
+		"express",
+		"connect"
 	],
 	"author": "AlejoNext"
 }
