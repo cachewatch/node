@@ -1,6 +1,6 @@
 {
 	"name": "cachewatch",
-	"version": "0.0.9",
+	"version": "0.0.10",
 	"description": "Wrapper for the CacheWatch",
 	"main": "lib/index.js",
 	"scripts": {
