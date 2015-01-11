@@ -12,8 +12,8 @@ $ npm install cachewatch-node
 
 ```javascript
 
-var CacheWacth = require('cachewacth');
+var CacheWatch = require('CacheWatch');
 
-app.use(CacheWacth.key('-- KEY --'));
+app.use(CacheWatch.key('-- KEY --'));
 
 ```
