@@ -5,15 +5,12 @@ API in node
 ## Install
 
 ```
-$ npm install cachewatch-node
+$ npm install cachewatch
 ```
 
 ## Use
 
 ```javascript
-
-var CacheWatch = require('CacheWatch');
-
-app.use(CacheWatch.key('-- KEY --'));
-
+var Cache = require('cachewatch');
+app.use(Cache('-- KEY --').watch);
 ```

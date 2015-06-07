@@ -11,12 +11,11 @@
 		"url": "git@github.com:cachewatch/node.git"
 	},
 	"dependencies": {
-		"debug": "^0.7.2",
-		"lodash": "^1.1.1",
 		"request": "^2.16.6",
 		"underscore": "1.7.0"
 	},
 	"devDependencies": {
+		"debug": "^0.7.2",
 		"mocha": "*",
 		"sinon": "*",
 		"should": "*",
