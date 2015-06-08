@@ -1,11 +1,8 @@
 {
 	"name": "cachewatch",
-	"version": "0.0.11",
+	"version": "1.0.0",
 	"description": "Wrapper for the CacheWatch",
 	"main": "lib/index.js",
-	"scripts": {
-		"test": "DEBUG= ./node_modules/.bin/mocha -t 5000"
-	},
 	"repository": {
 		"type": "git",
 		"url": "git@github.com:cachewatch/node.git"
@@ -18,8 +15,7 @@
 		"debug": "^0.7.2",
 		"mocha": "*",
 		"sinon": "*",
-		"should": "*",
-		"pre-git": "^0.1.1"
+		"should": "*"
 	},
 	"keywords": [
 		"cache",
@@ -28,7 +24,11 @@
 		"seo",
 		"templates",
 		"express",
-		"connect"
+		"connect",
+		"snapshots",
+		"angular",
+		"emberjs",
+		"backone"
 	],
 	"pre-push": [
 		"rm -rf tmp",
