@@ -8,20 +8,15 @@ You can use or not
 
 	<meta name="fragment" content="!">
 
-To learn more about
-
-* [How works?](http://developer.cache.watch/)
-* [Rates?](https://cache.watch/info/plans)
-
-## Install
-
-```
-$ npm install cachewatch
-```
-
 ## Use
 
 ```javascript
 var Cache = require('cachewatch');
 app.use(Cache('-- KEY --').watch);
 ```
+
+To learn more about
+
+* [How works?](http://developer.cache.watch/)
+* [Rates?](https://cache.watch/info/plans)
+
