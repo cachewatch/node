@@ -19,4 +19,3 @@ To learn more about
 
 * [How works?](http://developer.cache.watch/)
 * [Rates?](https://cache.watch/info/plans)
-
