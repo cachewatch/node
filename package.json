@@ -1,40 +1,44 @@
 {
-	"name": "cachewatch",
-	"version": "1.0.5",
-	"description": "Wrapper for the CacheWatch. Service to Javascript rendered pages for SEO",
-	"main": "lib/index.js",
-	"repository": {
-		"type": "git",
-		"url": "git@github.com:cachewatch/node.git"
-	},
-	"dependencies": {
-		"request": "^2.16.6",
-		"underscore": "1.7.0"
-	},
-	"devDependencies": {
-		"debug": "^0.7.2",
-		"mocha": "*",
-		"sinon": "*",
-		"should": "*"
-	},
-	"keywords": [
-		"cache",
-		"watch",
-		"cachewatch",
-		"seo",
-		"templates",
-		"express",
-		"connect",
-		"snapshots",
-		"angular",
-		"emberjs",
-		"backone"
-	],
-	"pre-push": [
-		"rm -rf tmp",
-		"rm -rf .sass-cache",
-		"node ../testers/publish.js",
-		"node ../testers/pre-push.js"
-	],
-	"author": "AlejoNext"
+  "name": "cachewatch",
+  "version": "1.1.0",
+  "description": "Wrapper for the CacheWatch. Service to Javascript rendered pages for SEO",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cachewatch/node.git"
+  },
+  "dependencies": {
+    "request": "^2.16.6",
+    "underscore": "1.7.0"
+  },
+  "devDependencies": {
+    "debug": "^0.7.2",
+    "mocha": "*",
+    "sinon": "*",
+    "should": "*"
+  },
+  "keywords": [
+    "cache",
+    "watch",
+    "cachewatch",
+    "seo",
+    "templates",
+    "express",
+    "connect",
+    "snapshots",
+    "angular",
+    "emberjs",
+    "backone"
+  ],
+  "pre-push": [
+    "rm -rf tmp",
+    "rm -rf .sass-cache",
+    "node ../testers/publish.js",
+    "node ../testers/pre-push.js"
+  ],
+  "author": "AlejoNext",
+  "bugs": {
+    "url": "https://github.com/cachewatch/node/issues"
+  },
+  "license": "GLP v1"
 }
