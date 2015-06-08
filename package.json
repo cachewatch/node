@@ -1,6 +1,6 @@
 {
 	"name": "cachewatch",
-	"version": "1.0.3",
+	"version": "1.0.5",
 	"description": "Wrapper for the CacheWatch. Service to Javascript rendered pages for SEO",
 	"main": "lib/index.js",
 	"repository": {
